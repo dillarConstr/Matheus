@@ -688,13 +688,15 @@
 // }
 
 import React from 'react';
-import { View } from 'react-native';
+import { View, Text } from 'react-native';
 
-export default function(props)
+export default function (props)
 {
   return (
     <View>
-      <View></View>
-   </View>
+      <View>
+        <Text>Ola mundo</Text>
+      </View>
+    </View>
   );
 }
